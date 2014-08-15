@@ -1,0 +1,119 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.button{
+    font-size: 0.5em;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid;
+}
+.hide{opacity:0;display:none}
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 15px 60px;
+}
+#tris-table{
+    /* Firefox */
+    -moz-transition: all 250ms ease-in;
+    /* WebKit */
+    -webkit-transition: all 250ms ease-in;
+    /* Opera */
+    -o-transition: all 250ms ease-in;
+    /* Standard */
+    transition: all 250ms ease-in;
+}
+.tile{
+    /* Firefox */
+    -moz-transition: all 100ms ease-in;
+    /* WebKit */
+    -webkit-transition: all 100ms ease-in;
+    /* Opera */
+    -o-transition: all 100ms ease-in;
+    /* Standard */
+    transition: all 100ms ease-in;
+}
+#tris-table.game-over{
+-webkit-filter: blur(5px); -moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px);
+}
+.hero-unit h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.tile {
+    width: 32%;
+    height: 148px;
+    margin-right: 1%;
+    float: left;
+    border-radius: 3px;
+    background: rgba(50, 136, 46, 0.35); }
+.tile:last-child {
+    margin-right: 0; }
+.tile-row {
+    margin-bottom: 1%; }
+.tile-row:last-child {
+    margin-bottom: 0; }
+.tile-row:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+div#tris-table.circle {
+    background-color: rgba(177, 0, 25, 0.45);
+}
+div#tris-table.cross {
+    background-color: #95bcd1;
+}
+.tile{
+    background-size: 10%;
+    background-position: 50% 50%;
+}
+.tile.circle{
+    background-image:url("../images/O.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    background-color: rgba(168, 169, 177, 0.45);
+}
+.tile.cross{
+    background-image:url("../images/X.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    background-color: rgba(168, 169, 177, 0.45);
+}
+#popup{
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    top: 50%;
+    left: 29%;
+    background-color: rgba(170, 173, 173, 0.800);
+    padding: 50px 100px;
+    z-index: 2;
+    border-radius: 6px;
+    border: 1px solid rgb(170, 173, 173);
+}
+
+
