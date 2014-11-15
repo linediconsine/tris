@@ -116,8 +116,4 @@ div#tris-table.cross {
     border: 1px solid rgb(170, 173, 173);
 }
 
-#tris-table:after{
-    content: " ";
-    background: url("../images/O.png") no-repeat -9999px -9999px;}
-
 

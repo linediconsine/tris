@@ -1,16 +1,23 @@
-.hero-unit h1 {
-    font-size: 19pt;
+
+@media only screen and (max-device-width: 480px) {
+	.hero-unit h1 {
+	    font-size: 19pt;
+	}
+
+	.hero-unit {
+	    width: 80%;
+	    padding: 15px 30px;}
+
+	.tile {
+	    width: 32%;
+	    height: 75px;}
+	element.style {
+	}
+	#popup {top:30%;left:5%;
+	    width: 80% !important;
+	padding:10px;}
+    .hero-unit {
+        margin: 10px auto 0 auto;
+    }
 }
 
-.hero-unit {
-    width: 80%;
-    padding: 15px 30px;}
-
-.tile {
-    width: 32%;
-    height: 75px;}
-element.style {
-}
-#popup {top:30%;left:5%;
-    width: 80% !important;
-padding:10px;}
