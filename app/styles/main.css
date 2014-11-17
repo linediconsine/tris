@@ -88,7 +88,7 @@ div#tris-table.cross {
 }
 .tile.circle{
     background-image:url("../images/O.png");
-    background-size: 80%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 

@@ -1,12 +1,13 @@
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 	.hero-unit h1 {
 	    font-size: 19pt;
 	}
 
 	.hero-unit {
-	    width: 80%;
-	    padding: 15px 30px;}
+	    width: 90%;
+	    padding: 15px 10px;
+    }
 
 	.tile {
 	    width: 32%;
@@ -19,5 +20,6 @@
     .hero-unit {
         margin: 10px auto 0 auto;
     }
+    body{margin:5px}
+    .created{font-size:0.5em}
 }
-
